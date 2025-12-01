@@ -4,7 +4,7 @@ Haider Wajahat (27100252) | Areeba Naveed (27100239) | Manam Khalid (27100254)
 
 This repository contains our implementation of the Structure from Motion (SfM) pipeline for CS436: Computer Vision Fundamentals. Our system covers the full flow from feature detection and matching, to two-view geometry, and finally an incremental multi-view SfM pipeline (Week 1 → Week 3).
 
-The codebase is structured to be modular and clear, with all core functions in src/ and output visualizations stored under images/outputs/.
+The codebase is structured to be modular and clear, with all core functions in src/ and output visualizations stored under outputs/.
 
 ## Directory Overview
 
@@ -72,8 +72,8 @@ images/outputs/matches_*.png
 
 Point clouds:
 
-images/outputs/two_view_cloud.ply
-images/outputs/sfm_week3.ply
+outputs/two_view_cloud.ply
+outputs/sfm_week3.ply
 
 ## Project Features
 
