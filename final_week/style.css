@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+#three-canvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+#ui,
+#ui button,
+#imgA,
+#imgB,
+#prevBtn,
+#nextBtn {
+  display: none !important;
+  pointer-events: none !important;
+}
